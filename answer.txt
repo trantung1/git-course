@@ -1,0 +1,2 @@
+1. Config username: git config --global user.name "your name"
+   Config email: git config --global user.email "your email"
