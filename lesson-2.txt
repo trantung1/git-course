@@ -1,0 +1,36 @@
+1.
+git init: Khoi tao mot thu muc duoc quan ly boi Git
+git add <Filename>: Them file duoc chi dinh vao vung staging (cho commit)
+git add . : Them tat ca cac file vao vung staging
+git commit - m "message": Tao ra 1 phien ban dua theo cac file da duoc them o vung staging vao repository kem theo "message"
+
+2.
+a.
+Tao 3 file:
+ - local: file 1,2,3
+ - working directory:
+ - staging:
+ - repository
+
+b. git init:
+ - local:
+ - working directory: file 1,2,3
+ - staging:
+ - repository
+
+c. git commit -m "init projec":
+ ca 3 file van o working directory
+
+d. git add file1:
+ - local:
+ - working directory: file 2,3
+ - staging: file1
+ - repository
+
+e. git commit -m "add file1":
+ - local:
+ - working directory: file 2,3
+ - staging:
+ - respository: file1
+
+f. git add file: khong co gi thay doi
